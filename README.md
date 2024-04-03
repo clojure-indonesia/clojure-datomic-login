@@ -13,9 +13,9 @@ $ clojure -M:run
 ```
 ### PLAY
 ```bash
-~ $ curl -H "Content-Type: application/json" http://localhost:8080 -d '{"email": "syd@email.com", "password": "_5rtong-p4ssw0rd_"}'
+$ curl -H "Content-Type: application/json" http://localhost:8080 -d '{"email": "syd@email.com", "password": "_5rtong-p4ssw0rd_"}'
 login berhasil!
-~ $ curl -H "Content-Type: application/json" http://localhost:8080 -d '{"email": "syd@email.com", "password": "_5rtong-p4sswrd_"}'
+$ curl -H "Content-Type: application/json" http://localhost:8080 -d '{"email": "syd@email.com", "password": "_5rtong-p4sswrd_"}'
 login gagal!
 ```
 ### REFERENCES
