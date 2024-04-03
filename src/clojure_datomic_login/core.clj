@@ -27,9 +27,10 @@
              "login berhasil!\n"
              "login gagal!\n")}))
 
-(def app (-> handler
-             wrap-keyword-params
-             wrap-json-params))
+(def app
+  (-> handler
+      wrap-keyword-params
+      wrap-json-params))
 
 (defn -main
   [& [port]]
