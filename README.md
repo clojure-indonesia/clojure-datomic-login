@@ -1,7 +1,7 @@
 ### CONFIG DB
 ```bash
 $ more ~/.datomic/local.edn 
-{:storage-dir "/home/rasyid/Sources/clojure/clojure-datomic-login"}
+{:storage-dir "/absolute-path/clojure-datomic-login"}
 ```
 ### RUN
 ```bash
